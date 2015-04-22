@@ -1,0 +1,3 @@
+Initializing a repository (git init) adds a .git folder which contains metadata associated with the repository.  It must be done so that the appropriate data is in place when the repository is committed.
+
+The staging area is used to prepare the files you want to commit to the repository.  The working directory may contain more files than you want to commit.  Staging them allows you to commit only the files you want.
