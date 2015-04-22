@@ -1,0 +1,13 @@
+diff identifies the differences between two files explicitly as opposed to hunting through text.  With differences identified the bugs are easily seen.
+
+Easy access to a complete file history allows you to revert to an earlier version if some functionality is desired.  It will be much quicker to identify bugs using diff or fc with older versions, and bug fixes become much easier.
+
+The pros of adding commits when you want are you have the control to commits in a logical fashion and capture the right "size" of change.  On the other hand, manually committing is prone to human error.  You may forget to commit and the file becomes too big to handle efficiently or too small and you have too many version between useful versions.
+
+Multiple commits are allowed so that related files can be managed together.  A change in one file may affect another and as such it is desireable to commit those changes all at once.
+
+git log provides a history of the commits that have been made including any descriptions by the author.  git diff gives the changes between the two files.
+
+You needn't worry about making changes that might break somethin because by using version control you can go back and find them rather easily by reverting to previous versions before the mistake occurred.
+
+I plan to start in robotics studies and experimentation and as such will be writing software to support development.  git will be used as the my code version control.
