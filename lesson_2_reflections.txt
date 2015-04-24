@@ -4,3 +4,8 @@ The staging area is used to prepare the files you want to commit to the reposito
 
 How can you use the staging area to make sure you have one commit per logical change?
 git status will help you see what is staged for a commit.  Running fit diff --staged will identify the changes in the staged files and the current repository so you can see exactly what will be committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+1) When making an experimental version of your code (addint an experimental feature, or
+2) A bug fix may stay on the main branch, or
+3) A version of code or documentation in another language
