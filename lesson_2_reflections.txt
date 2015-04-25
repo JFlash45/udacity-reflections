@@ -15,3 +15,6 @@ It allows you to see the parent of each commit and which commits are reachable.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 One branch is merge into another such that they are on a common branch now.  The files between them are now common.  The diagram depicts this situation in that the new commit is the parent to both previous branches.  In other words, all previous commits regardless of branch are reachable from the new parent so long as the meet the reachability requirement.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging saves time by merging two commits that have no conflict between them.  It is accomplished via a simple command.  If a conflict does arise it won't commit and notifies you of said conflict.  This forces the user to resolve the conflict manually.  This requires extra effort but it ensures that the user makes the merge decision rather than an algorithm that may lead to mistakes in the merge an potentially unusable code or other nonsensical compilations.
