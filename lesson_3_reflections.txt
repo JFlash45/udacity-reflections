@@ -3,3 +3,6 @@ A remote repository might be useful if you want your to collaborate with others 
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 For similar reasons on why to make commits at certain time, you probably want to only pull changes at certain logical points rather than automatically syncing at a specified time.  It may not make sense to pull some changes at those times and may lead to confusion as the current state of your project.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are repositories belonging to other people that you would like to work with but they don't want you to directly modify their repository.  A clone is a copy of a repository with all of the same content as the original.  A branch is a part a repository but one path in the commit history.
