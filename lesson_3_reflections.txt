@@ -9,3 +9,6 @@ Forks are repositories belonging to other people that you would like to work wit
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Having the last known state of the remote stored locally allows you to work offline on the current state of the project.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+It's possible to collaborate via email or perhaps establishing an ftp server to share files.  Both are simple and easy to use, no commands to remember.  The issue with both would be version control.  Changes would get lost rather easily and bugs would be difficult to fix.
