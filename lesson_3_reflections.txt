@@ -12,3 +12,6 @@ Having the last known state of the remote stored locally allows you to work offl
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 It's possible to collaborate via email or perhaps establishing an ftp server to share files.  Both are simple and easy to use, no commands to remember.  The issue with both would be version control.  Changes would get lost rather easily and bugs would be difficult to fix.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You might want to make changes in a separate branch before you're ready to fully update the master branch.  It also allows others to view and update the changes prior to putting them in the master.  On the other hand making the changes directly in the master branch creates a less complicated history to follow.
